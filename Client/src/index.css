@@ -1,0 +1,67 @@
+@font-face{
+    font-family: NexaBold;
+    src: url("./Fonts/NexaBold.woff") format("woff");
+}
+
+@font-face{
+    font-family: NexaLight;
+    src: url("./Fonts/NexaLight.woff") format("woff");
+}
+
+img{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    border: '5px solid white'
+}
+
+h1{
+    z-index: 2;
+    align-self: center;
+    position: absolute;
+    font-family: NexaBold;
+}
+
+p{
+    z-index: 2;
+    align-self: center;
+    position: absolute;
+}
+
+#name{
+    z-index: 2;
+    align-self: center;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 5%;
+    font-family: NexaBold;
+    font-size: 9vw;
+    color: white;
+    
+}
+
+#title{
+    z-index: 2;
+    align-self: center;
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 5%;
+    font-family: NexaLight;
+    font-size: 3vw;
+    color: white;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+#forestPicture{
+    width:100%;
+    height:100%;
+}
+
