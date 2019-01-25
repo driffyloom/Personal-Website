@@ -1,6 +1,6 @@
 //where you start creating react components\
 import React from "react";
-import beach from "./Beach.jpg";
+import beach from "./Images/Beach.jpg";
 import './index.css';
 
 //creates a react div

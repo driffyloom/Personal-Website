@@ -10,7 +10,7 @@
 
 img{
     z-index: 1;
-    position: absolute;
+    position: fixed;
     height: 100%;
     border: '5px solid white'
 }
@@ -18,21 +18,21 @@ img{
 h1{
     z-index: 2;
     align-self: center;
-    position: absolute;
+    position: relative;
     font-family: NexaBold;
 }
 
 p{
     z-index: 2;
     align-self: center;
-    position: absolute;
+    position: relative;
 }
 
 #name{
     z-index: 2;
     align-self: center;
-    position: absolute;
-    margin-top: 17%;
+    position: relative;
+    margin-top: 16%;
     margin-left: 5%;
     font-family: NexaBold;
     font-size: 9vw;
@@ -43,12 +43,13 @@ p{
 #title{
     z-index: 2;
     align-self: center;
-    position: absolute;
-    margin-top: 29%;
+    position: relative;
+    margin-top: -2%;
     margin-left: 5%;
     font-family: NexaLight;
     font-size: 3vw;
     color: white;
+    width: 75vw;
 }
 
 #background {

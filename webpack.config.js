@@ -2,7 +2,8 @@ var webpack = require('webpack')
 
 module.exports = {
     entry: {
-      app: __dirname + '/Client/src/app.jsx'
+      app:'./Client/src/app.jsx',
+      menu: './Client/src/menu.jsx'
     },
     module: {
       rules: [
@@ -35,7 +36,7 @@ module.exports = {
     },
     
     output: {
-      filename: 'bundle.js',
+      filename: '[name].js',
       path: __dirname + '/Client/dist'
     }
   };
