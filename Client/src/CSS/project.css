@@ -1,0 +1,89 @@
+@font-face{
+    font-family: NexaBold;
+    src: url("../Fonts/NexaBold.woff") format("woff");
+}
+
+@font-face{
+    font-family: NexaLight;
+    src: url("../Fonts/NexaLight.woff") format("woff");
+}
+
+#projectTitle{
+    z-index: 2;
+    position: relative;
+    text-align:center;
+    font-family: NexaLight;
+    font-size: 3vw;
+    color: gray;
+    width: 75vw;
+    margin-left:10%;
+}
+
+#menuDescription{
+    z-index: 2;
+    position: relative;
+    text-align:center;
+    font-family: NexaLight;
+    font-size: 2vw;
+    color: gray;
+    width: 75vw;
+    margin-left:10%;
+}
+
+
+#projectSpace {
+    border-radius: 25px;
+    margin-top: 15%;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    margin-bottom: 100px;
+    width: 93.6vw;
+    height: auto;
+    padding: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    min-width: 1140px; /* this is the important part*/
+}
+
+#grid{
+    width:1140px;
+    margin:0px auto;
+}
+
+
+.projectImage {
+    z-index: 3;
+    opacity: 1;
+    display:inline-block;
+    width: 30%;
+    height: 20%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: fixed;
+}
+
+.projectTextBox {
+    
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display:inline-block;
+    z-index: 2;
+    align-self: center;
+    position: relative;
+    width: auto;
+    margin-top: 10%;
+}
+
+.projectText{
+    margin-left: 35%; 
+    font-family: NexaLight;
+    font-size: 2vw;
+    color: gray;
+}

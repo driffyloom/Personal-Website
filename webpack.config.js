@@ -1,9 +1,10 @@
 var webpack = require('webpack')
-
+var ReactRotatingText = require('react-rotating-text');
 module.exports = {
     entry: {
       app:'./Client/src/app.jsx',
-      menu: './Client/src/menu.jsx'
+      menu: './Client/src/menu.jsx',
+      contactInfo: './Client/src/footer.jsx'
     },
     module: {
       rules: [
