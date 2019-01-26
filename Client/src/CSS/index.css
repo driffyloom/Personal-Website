@@ -14,20 +14,19 @@
 }
 
 @font-face{
-    font-family: ProximaNovaRegular;
-    src: url("../Fonts/ProximaNova-Regular.woff") format("ttf");
+    font-family: GraphikLight;
+    src: url("../Fonts/GraphikWeb-Light.woff") format("woff");
 }
 
 @font-face{
-    font-family: ProximaNovaBold;
-    src: url("../Fonts/ProximaNova-Bold.woff") format("ttf");
+    font-family: GraphikSemiBold;
+    src: url("../Fonts/GraphikWeb-Semibold.woff") format("woff");
 }
 
 @font-face{
-    font-family: ProximaNovaExtraBold;
-    src: url("../Fonts/ProximaNova-Extrabld.woff") format("ttf");
+    font-family: GraphikBlack;
+    src: url("../Fonts/GraphikWeb-Black.woff") format("woff");
 }
-
 
 #img{
     z-index: 1;
@@ -55,7 +54,7 @@
     position: relative;
     margin-top: -2%;
     margin-left: 5%;
-    font-family: NexaLight;
+    font-family: GraphikLight;
     font-size: 3vw;
     color: white;
     width: 75vw;
@@ -65,10 +64,9 @@
     z-index: 2;
     position: relative;
     display: inline;
-    font-family: NexaLight;
+    font-family: GraphikLight;
     font-size: 4vw;
     color: white;
-    width: 75vw;
 }
 
 #background {
@@ -90,7 +88,7 @@
 
 #lovesRotating{
     display:inline;
-    font-family: ProximaNovaBold;
+    font-family: GraphikLight;
     font-size: 3vw;
     color: white;
 }

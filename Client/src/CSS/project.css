@@ -2,7 +2,7 @@
     z-index: 2;
     position: relative;
     text-align:center;
-    font-family: NexaBold;
+    font-family: GraphikSemiBold;
     font-size: 4vw;
     color: black;
     width: 75vw;
@@ -69,7 +69,7 @@ a {text-decoration: none}
     z-index: 2;
     position: relative;
     text-align:left;
-    font-family: NexaBold;
+    font-family: GraphikSemiBold;
     font-size: 3vw;
     color: black;
     width: auto;
@@ -80,17 +80,18 @@ a {text-decoration: none}
     z-index: 2;
     position: relative;
     text-align:left;
-    font-family: NexaLight;
+    font-family: GraphikLight;
     font-size: 1.5vw;
     width: auto;
     height:auto;
     margin-top: -4%;
     margin-bottom: 5%;
+    color: wheat;
 }
 
 .projectDescription{
     flex-wrap: wrap;
-    font-family: NexaLight;
+    font-family: GraphikLight;
     font-size: 1.5vw;
     color: black;
     width: auto;
