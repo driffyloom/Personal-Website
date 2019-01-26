@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import profile from "./Media/Profile.jpg";
 import gmail from "./Media/Gmail.png";
 import linkedIn from "./Media/LinkedIn.png";
-import document from './Media/Document.jpg';
+import document from "./Media/Document.jpg";
 import gitHub from "./Media/GitHub.png";
 import resume from "./Media/Austin_Resume.pdf";
 
