@@ -1,5 +1,7 @@
 var webpack = require('webpack')
 var ReactRotatingText = require('react-rotating-text');
+var reactPose = require('react-pose');
+
 module.exports = {
     entry: {
       app:'./Client/src/app.jsx',

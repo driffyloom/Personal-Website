@@ -29,7 +29,7 @@ export default class ReactProjects extends React.Component{
                     </Fade>
 
                     <div class = "projectSection">
-                        <Fade left>  
+                        <Fade left class = "fadeBlock">  
                             <div>
                                 <a href = "https://github.com/driffyloom/Personal-Website"> 
                                 <HoverImage src={website} class = "projectImage"/>
@@ -37,7 +37,7 @@ export default class ReactProjects extends React.Component{
                             </div>
                         </Fade>
 
-                        <Fade right>
+                        <Fade right class = "fadeBlock">
                             <div class = "projectTextBox">
                                 <p class = "projectText">This website is my first foray into react, webpack, and front end design! 
                                 It is the first project in my bi-weekly 2019 projects so keep a look out for more projects soon.
@@ -47,7 +47,7 @@ export default class ReactProjects extends React.Component{
                     </div>
 
                     <div class = "projectSection">
-                        <Fade left>  
+                        <Fade left class = "fadeBlock">  
                             <div>
                                 <a href = "http://www.randosliberation.wordpress.com"> 
                                 <HoverImage src={liberation} class = "projectImage"/>
@@ -55,7 +55,7 @@ export default class ReactProjects extends React.Component{
                             </div>
                         </Fade>
 
-                        <Fade right>
+                        <Fade right class = "fadeBlock">
                             <div class = "projectTextBox">
                                 <p class = "projectText">I'm currently head developer of Liberation, a 3D action shooter game developed in UE4.</p>
                             </div>   
