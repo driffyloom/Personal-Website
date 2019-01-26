@@ -30,7 +30,7 @@
     background-color: lightgrey;
     margin-bottom: 100px;
     height: 25vw;
-    width: 40%;
+    width: 40vw;
     font-family: NexaLight;
     font-size: 2vw;
     color: black;
@@ -42,6 +42,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    width: 94.1vw;
 }
 
 #ContactInfo{
