@@ -22,10 +22,7 @@ export default class ReactProjects extends React.Component{
             
                 <div id = "projectSpace">
                     <Fade top>
-                        <p id = "projectTitle">Projects</p>
-                        <div>
-                            <p id = "photoDetail">Check out my recent projects by clicking on the images!</p>
-                        </div>
+                        <p id = "projectTitle">My Projects</p>
                     </Fade>
 
                     <div class = "projectSection">
@@ -38,13 +35,19 @@ export default class ReactProjects extends React.Component{
                         </Fade>
 
                         <Fade right class = "fadeBlock">
-                            <div class = "projectTextBox">
-                                <p class = "projectText">This website is my first foray into react, webpack, and front end design! 
-                                It is the first project in my bi-weekly 2019 projects so keep a look out for more projects soon.
-                                </p>
+                            <div>
+                                <div class = "projectText">
+                                    <p class = "projectTitle"> Personal Website </p>
+                                    <p class = "projectSubtitle"><a href = "https://github.com/driffyloom/Personal-Website" >https://github.com/driffyloom/Personal-Website</a> | 1/20/2019</p>
+                                    <p class = "projectDescription">This website is my first foray into react, webpack, and front end design! 
+                                    It is the first project in my bi-weekly 2019 projects so keep a look out for more projects soon.
+                                    </p>
+                                </div>
                             </div>   
                         </Fade>     
                     </div>
+
+                    <hr></hr>
 
                     <div class = "projectSection">
                         <Fade left class = "fadeBlock">  
@@ -56,8 +59,12 @@ export default class ReactProjects extends React.Component{
                         </Fade>
 
                         <Fade right class = "fadeBlock">
-                            <div class = "projectTextBox">
-                                <p class = "projectText">I'm currently head developer of Liberation, a 3D action shooter game developed in UE4.</p>
+                            <div class>
+                                <div class = "projectText">
+                                    <p class = "projectTitle"> Liberation </p>
+                                    <p class = "projectSubtitle"> <a href = "http://www.randosliberation.wordpress.com" >http://www.randosliberation.wordpress.com</a> | 1/20/2019</p>
+                                    <p class = "projectDescription">I'm currently head developer of Liberation, a 3D action shooter game developed in UE4.</p>
+                                </div>
                             </div>   
                         </Fade>
                     </div>

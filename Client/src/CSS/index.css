@@ -13,6 +13,22 @@
     src: url("../Fonts/Signika-Bold.ttf") format("ttf");
 }
 
+@font-face{
+    font-family: ProximaNovaRegular;
+    src: url("../Fonts/ProximaNova-Regular.woff") format("ttf");
+}
+
+@font-face{
+    font-family: ProximaNovaBold;
+    src: url("../Fonts/ProximaNova-Bold.woff") format("ttf");
+}
+
+@font-face{
+    font-family: ProximaNovaExtraBold;
+    src: url("../Fonts/ProximaNova-Extrabld.woff") format("ttf");
+}
+
+
 #img{
     z-index: 1;
     position: fixed;
@@ -25,11 +41,11 @@
     z-index: 2;
     align-self: center;
     position: relative;
-    margin-top: 10%;
+    margin-top: 17%;
     margin-left: 5%;
-    font-family: SignikaBold;
+    font-family: NexaBold;
     font-size: 9vw;
-    color: black;
+    color: white;
     
 }
 
@@ -41,7 +57,7 @@
     margin-left: 5%;
     font-family: NexaLight;
     font-size: 3vw;
-    color: darkgrey;
+    color: white;
     width: 75vw;
 }
 
@@ -49,29 +65,32 @@
     z-index: 2;
     position: relative;
     display: inline;
-    font-family: NexaBold;
+    font-family: NexaLight;
     font-size: 4vw;
-    color: black;
+    color: white;
     width: 75vw;
 }
 
 #background {
     width: 100%;
     height: 100%; 
-    position: fixed; 
     left: 0px; 
     top: 0px; 
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
 }
 
 #beachPicture{
-    width: 100%;
-    height: 100%;
+    width: 99vw;
+    height: 51.4vw;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
 }
 
 #lovesRotating{
     display:inline;
-    font-family: NexaLight;
+    font-family: ProximaNovaBold;
     font-size: 3vw;
     color: white;
 }

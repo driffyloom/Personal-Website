@@ -10,7 +10,6 @@
 
 #profilePicBox{
     flex-wrap: wrap;
-    border-radius: 25px;
     z-index: 2;
     position: relative;
     background-color: lightgrey;
@@ -23,6 +22,7 @@
 }
 
 #contactInfoBox{
+    display: flex;
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
@@ -33,7 +33,7 @@
     font-family: NexaLight;
     font-size: 2vw;
     color: black;
-    padding:50px;
+    padding:2.5vw;
 }
 
 #flexBox{
@@ -41,7 +41,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 94.1vw;
+    width: 98vw;
 }
 
 #ContactInfo{
@@ -66,9 +66,18 @@
 }
 
 
+.gmailIcon{
+    height:2.5vw;
+    width:3vw;
+    display:inline-block;
+    margin:auto;
+    position: static;
+    margin-right:10px;
+}
+
 .icon{
-    height:2vw;
-    width:2vw;
+    height:3vw;
+    width:3vw;
     display:inline-block;
     margin:auto;
     position: static;

@@ -1,33 +1,13 @@
-@font-face{
-    font-family: NexaBold;
-    src: url("../Fonts/NexaBold.woff") format("woff");
-}
-
-@font-face{
-    font-family: NexaLight;
-    src: url("../Fonts/NexaLight.woff") format("woff");
-}
-
 #projectTitle{
     z-index: 2;
     position: relative;
     text-align:center;
-    font-family: NexaLight;
-    font-size: 3vw;
+    font-family: NexaBold;
+    font-size: 4vw;
     color: black;
     width: 75vw;
     margin-left:10%;
-}
-
-#photoDetail{
-    z-index: 2;
-    position: relative;
-    text-align:center;
-    font-family: NexaLight;
-    font-size: 2vw;
-    color: black;
-    width: 75vw;
-    margin-bottom:5%;
+    margin-bottom: 5%;
 }
 
 
@@ -35,7 +15,6 @@
     margin-top: 15%;
     z-index: 2;
     position: relative;
-
     margin-bottom: 100px;
     width: 94.1vw;
     height: auto;
@@ -56,6 +35,18 @@ html, body{
     margin:0px auto;
 }
 
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color: grey;
+    height: 1px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+a {text-decoration: none}
 
 .projectImage {
     flex-wrap: wrap;
@@ -66,23 +57,48 @@ html, body{
     height: 14.5vw;
     transition: .5s ease;
     backface-visibility: hidden;
-    margin-left:10%;
+    margin-left: 7%;
 }
 
 .projectText{
-    flex-wrap: wrap;
-    margin-left: 10%; 
-    margin-top: 5%;
-    font-family: NexaLight;
-    font-size: 2vw;
+    width:auto;
+    margin-left: 7%;
+}
+
+.projectTitle{
+    z-index: 2;
+    position: relative;
+    text-align:left;
+    font-family: NexaBold;
+    font-size: 3vw;
     color: black;
+    width: auto;
+    margin-top: -1%;
+}
+
+.projectSubtitle{
+    z-index: 2;
+    position: relative;
+    text-align:left;
+    font-family: NexaLight;
+    font-size: 1.5vw;
+    width: auto;
+    height:auto;
+    margin-top: -4%;
+    margin-bottom: 5%;
+}
+
+.projectDescription{
+    flex-wrap: wrap;
+    font-family: NexaLight;
+    font-size: 1.5vw;
+    color: black;
+    width: auto;
 }
 
 .projectSection{
-    margin:10px;
-    background-color: lightgrey;
-    border-radius:25px;
-    height: 350px;
+    margin:1vw;
+    height:auto;
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -93,5 +109,5 @@ html, body{
 }
 
 .react-reveal{
-    margin:auto;
+    margin:0;
 }
