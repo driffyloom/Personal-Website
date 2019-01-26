@@ -14,18 +14,18 @@
     text-align:center;
     font-family: NexaLight;
     font-size: 3vw;
-    color: gray;
+    color: black;
     width: 75vw;
     margin-left:10%;
 }
 
-#menuDescription{
+#photoDetail{
     z-index: 2;
     position: relative;
     text-align:center;
     font-family: NexaLight;
     font-size: 2vw;
-    color: gray;
+    color: black;
     width: 75vw;
     margin-left:10%;
 }
@@ -36,7 +36,7 @@
     margin-top: 15%;
     z-index: 2;
     position: relative;
-    background-color: white;
+    background-color: lightgrey;
     margin-bottom: 100px;
     width: 93.6vw;
     height: auto;
@@ -63,7 +63,7 @@ html, body{
     opacity: 1;
     display:inline-block;
     width: 30%;
-    height: 20%;
+    height: 14.5vw;
     transition: .5s ease;
     backface-visibility: hidden;
     position: fixed;
@@ -83,7 +83,12 @@ html, body{
 
 .projectText{
     margin-left: 35%; 
+    margin-top: 5%;
     font-family: NexaLight;
     font-size: 2vw;
-    color: gray;
+    color: black;
+}
+
+.projectSection{
+    height: 350px;
 }

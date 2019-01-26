@@ -13,13 +13,13 @@
     border-radius: 25px;
     z-index: 2;
     position: relative;
-    background-color: white;
+    background-color: lightgrey;
     margin-bottom:100px;
     height: 30vw;
     width: 22.5vw;
     font-family: NexaLight;
     font-size: 2vw;
-    color: white;
+    color: black;
 }
 
 #contactInfoBox{
@@ -27,15 +27,21 @@
     border-radius: 25px;
     z-index: 2;
     position: relative;
-    background-color: white;
-    margin-top: -5%;
+    background-color: lightgrey;
     margin-bottom: 100px;
     height: 25vw;
-    width: 70vw;
+    width: 40%;
     font-family: NexaLight;
     font-size: 2vw;
-    color: white;
+    color: black;
     padding:50px;
+}
+
+#flexBox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 #ContactInfo{
@@ -60,6 +66,7 @@
     overflow:auto;
 }
 
+
 .icon{
     height:2vw;
     width:2vw;
@@ -80,3 +87,4 @@
 #GetInTouch{
     font-family: NexaBold;
 }
+

@@ -22,7 +22,7 @@ export default class Contact extends React.Component{
 
     render(){
         return(
-            <div>
+            <div id = "flexBox">
                 <Fade left>
                     <div id = "profilePicBox">
                         <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/"> 
@@ -40,11 +40,11 @@ export default class Contact extends React.Component{
                             </div>
                             <div>
                                 <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/"><img src = {linkedIn} class = "icon"></img></a>   
-                                <p class = "contactText">LinkedIn: <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/" class = "contactLink" > https://www.linkedin.com/in/austin-chiang-66a45b133/</a></p>
+                                <p class = "contactText"><a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/" class = "contactLink" > My LinkedIn</a></p>
                             </div>
                             <div>
                                 <a href = "./Media/Austin_Resume.pdf" download><img src = {document} class = "icon"></img></a>   
-                                <p class = "contactText">LinkedIn: <a href = "./Media/Austin_Resume.pdf" class = "contactLink"download > My Resume</a></p>
+                                <p class = "contactText"><a href = "./Media/Austin_Resume.pdf" class = "contactLink"download > My Resume</a></p>
                             </div>
                         </div>
                     </div>

@@ -24,14 +24,14 @@ export default class ReactProjects extends React.Component{
                     <Fade top>
                         <p id = "projectTitle">Projects</p>
                         <div>
-                            <p id = "menuDescription">Check out my recent projects by clicking on the images!</p>
+                            <p id = "photoDetail">Check out my recent projects by clicking on the images!</p>
                         </div>
                     </Fade>
 
                     <div class = "projectSection">
                         <Fade left>  
                             <div>
-                                <a href = "http://www.randosliberation.wordpress.com"> 
+                                <a href = "https://github.com/driffyloom/Personal-Website"> 
                                 <HoverImage src={website} class = "projectImage"/>
                                 </a>
                             </div>
@@ -39,7 +39,8 @@ export default class ReactProjects extends React.Component{
 
                         <Fade right>
                             <div class = "projectTextBox">
-                                <p class = "projectText">This website is my first foray into react, webpack, and the first project in my bi-weekly 2019 projects! 
+                                <p class = "projectText">This website is my first foray into react, webpack, and front end design! 
+                                It is the first project in my bi-weekly 2019 projects so keep a look out for more projects soon.
                                 </p>
                             </div>   
                         </Fade>     
@@ -48,7 +49,7 @@ export default class ReactProjects extends React.Component{
                     <div class = "projectSection">
                         <Fade left>  
                             <div>
-                                <a href = "https://github.com/driffyloom/Personal-Website"> 
+                                <a href = "http://www.randosliberation.wordpress.com"> 
                                 <HoverImage src={liberation} class = "projectImage"/>
                                 </a>
                             </div>
