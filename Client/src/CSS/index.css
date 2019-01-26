@@ -8,6 +8,11 @@
     src: url("../Fonts/NexaLight.woff") format("woff");
 }
 
+@font-face{
+    font-family: SignikaBold;
+    src: url("../Fonts/Signika-Bold.ttf") format("ttf");
+}
+
 #img{
     z-index: 1;
     position: fixed;
@@ -20,11 +25,11 @@
     z-index: 2;
     align-self: center;
     position: relative;
-    margin-top: 17.8%;
+    margin-top: 10%;
     margin-left: 5%;
-    font-family: NexaBold;
+    font-family: SignikaBold;
     font-size: 9vw;
-    color: white;
+    color: black;
     
 }
 
@@ -36,7 +41,17 @@
     margin-left: 5%;
     font-family: NexaLight;
     font-size: 3vw;
-    color: white;
+    color: darkgrey;
+    width: 75vw;
+}
+
+#boldTitle{
+    z-index: 2;
+    position: relative;
+    display: inline;
+    font-family: NexaBold;
+    font-size: 4vw;
+    color: black;
     width: 75vw;
 }
 

@@ -27,17 +27,15 @@
     font-size: 2vw;
     color: black;
     width: 75vw;
-    margin-left:10%;
     margin-bottom:5%;
 }
 
 
 #projectSpace {
-    border-radius: 25px;
     margin-top: 15%;
     z-index: 2;
     position: relative;
-    background-color: lightgrey;
+
     margin-bottom: 100px;
     width: 94.1vw;
     height: auto;
@@ -68,18 +66,7 @@ html, body{
     height: 14.5vw;
     transition: .5s ease;
     backface-visibility: hidden;
-}
-
-.projectTextBox {
-    flex-wrap: wrap;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    display:inline-block;
-    z-index: 2;
-    align-self: center;
-    position: relative;
-    width: auto;
-    margin-top: 10%;
+    margin-left:10%;
 }
 
 .projectText{
@@ -92,6 +79,9 @@ html, body{
 }
 
 .projectSection{
+    margin:10px;
+    background-color: lightgrey;
+    border-radius:25px;
     height: 350px;
     display:flex;
     flex-direction: row;
@@ -100,4 +90,8 @@ html, body{
 
 .fadeBlock{
     width: 65vw;
+}
+
+.react-reveal{
+    margin:auto;
 }

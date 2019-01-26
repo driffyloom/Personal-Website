@@ -24,7 +24,6 @@
 
 #contactInfoBox{
     flex-wrap: wrap;
-    border-radius: 25px;
     z-index: 2;
     position: relative;
     background-color: lightgrey;
@@ -51,7 +50,6 @@
 }
 
 #profilePic{
-    border-radius: 25px;
     height:25vw;
     width: 18vw;
     display:block;
