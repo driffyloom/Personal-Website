@@ -7,6 +7,7 @@ import profile from "./Media/Profile.jpg";
 import gmail from "./Media/Gmail.png";
 import linkedIn from "./Media/LinkedIn.png";
 import document from './Media/document.jpg';
+import resume from "./Media/Austin_Resume.pdf";
 
 //creates a react div
 
@@ -43,8 +44,8 @@ export default class Contact extends React.Component{
                                 <p class = "contactText"><a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/" class = "contactLink" > My LinkedIn</a></p>
                             </div>
                             <div>
-                                <a href = "./Media/Austin_Resume.pdf" download><img src = {document} class = "icon"></img></a>   
-                                <p class = "contactText"><a href = "./Media/Austin_Resume.pdf" class = "contactLink"download > My Resume</a></p>
+                                <a href = {resume} download><img src = {document} class = "icon"></img></a>   
+                                <p class = "contactText"><a href = {resume} class = "contactLink"download > My Resume</a></p>
                             </div>
                         </div>
                     </div>
