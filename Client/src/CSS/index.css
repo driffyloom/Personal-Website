@@ -78,7 +78,7 @@
 }
 
 #beachPicture{
-    width: 99vw;
+    width: 99.1vw;
     height: 51.4vw;
     position:absolute;
     left:0px;
@@ -93,3 +93,11 @@
     color: white;
 }
 
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:white;
+    width:99vw;
+    min-width: 98vw;
+}

@@ -12,13 +12,11 @@
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
-    background-color: lightgrey;
-    margin-bottom:100px;
+    background-color: tan;
     height: 30vw;
-    width: 22.5vw;
-    font-family: NexaLight;
+    width: 50%;
+    font-family: GraphikLight;
     font-size: 2vw;
-    color: black;
 }
 
 #contactInfoBox{
@@ -26,11 +24,10 @@
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
-    background-color: lightgrey;
-    margin-bottom: 100px;
+    background-color: wheat;
     height: 25vw;
-    width: 40vw;
-    font-family: NexaLight;
+    width: 50%;
+    font-family: GraphikLight;
     font-size: 2vw;
     color: black;
     padding:2.5vw;
@@ -72,7 +69,7 @@
     display:inline-block;
     margin:auto;
     position: static;
-    margin-right:10px;
+    margin-right:20px;
 }
 
 .icon{
@@ -93,6 +90,6 @@
 }
 
 #GetInTouch{
-    font-family: NexaBold;
+    font-family: GraphikSemiBold;
 }
 

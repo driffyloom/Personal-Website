@@ -21,11 +21,6 @@ const Image = posed.img({
 
   export default class HoverImage extends React.Component {
 
-    handleClick(){
-        const {link, imageSource, ...props } = this.props;
-        window.open({link});
-    }
-
     render() {
     
         const {link, imageSource, ...props } = this.props;

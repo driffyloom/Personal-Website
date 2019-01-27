@@ -22,7 +22,7 @@ export default class ReactProjects extends React.Component{
             
                 <div id = "projectSpace">
                     <Fade top>
-                        <p id = "projectTitle">My Projects</p>
+                        <p id = "projectSectionTitle">My Projects</p>
                     </Fade>
 
                     <div class = "projectSection">
