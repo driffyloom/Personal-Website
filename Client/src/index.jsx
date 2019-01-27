@@ -31,7 +31,7 @@ export default class Title extends React.Component{
                         <h1 id = "name">I'm Austin Chiang.</h1>
                         <p id = "title"> I'm a Software Engineer specializing in
                         <p id = "boldTitle">
-                        <ReactRotatingText items = {[" C++.", " Java.", " making things.", " SQL.", " React."]} 
+                        <ReactRotatingText items = {[" C++.", " Java.", " SQL.", " React."]} 
                         typingInterval = "100" deletingInvterval = "100" id = "lovesRotating"/> </p></p>
                     </div>
                     <div>

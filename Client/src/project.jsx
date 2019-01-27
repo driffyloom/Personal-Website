@@ -41,7 +41,7 @@ export default class Projects extends React.Component{
                                 <div class = "projectText">
                                     <p class = "projectTitle"> Personal Website </p>
                                     <p class = "projectSubtitle"><a href = "https://github.com/driffyloom/Personal-Website" >Project Link</a> | January 2019</p>
-                                    <p class = "projectDescription">This website is my first foray into react, webpack, and front end design! 
+                                    <p class = "projectDescription">This website is my first foray into react, webpack, and front end development! 
                                     It is the first project in my bi-weekly 2019 projects so keep a look out for more projects soon.
                                     </p>
                                 </div>

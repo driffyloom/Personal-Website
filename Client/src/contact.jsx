@@ -44,7 +44,7 @@ export default class Contact extends React.Component{
                     <Fade right>
                         <div>
                             <p class = "descriptions">Hi there! I'm a Software Engineer based in Orange County, 
-                            California that loves music, socializing, F45, music and creating things in general!
+                            California that loves music, socializing, F45, music and making things in general!
                             </p>
                         </div>
                     </Fade>
