@@ -44,8 +44,17 @@ export default class Contact extends React.Component{
                     <Fade right>
                         <div>
                             <p class = "descriptions">Hi there! I'm a Software Engineer based in Orange County, 
-                            California that loves music, socializing, F45, music and making things in general!
+                            California with a B.S. in Computer Science from UCI. I'm also a huge Star
+                            Wars geek with a love for music, socializing, F45, music and making things in general!
                             </p>
+                            <div class = "iconFlexBox" >
+                                <div>
+                                    <a href = {resume} download><img src = {document} class = "icon"></img></a>   
+                                </div>
+                                <div>
+                                    <p class = "contactText"><a href = {resume} class = "contactLink" download > My Resume</a></p>
+                                </div>
+                            </div>
                         </div>
                     </Fade>
 
@@ -80,12 +89,6 @@ export default class Contact extends React.Component{
                             <div>    
                                 <p class = "contactText"><a href = "https://github.com/driffyloom" class = "contactLink" 
                                 download > My Github</a></p>
-                            </div>
-                            <div>
-                                <a href = {resume} download><img src = {document} class = "icon"></img></a>   
-                            </div>
-                            <div>
-                                <p class = "contactText"><a href = {resume} class = "contactLink" download > My Resume</a></p>
                             </div>
                         </div>
                     </div>

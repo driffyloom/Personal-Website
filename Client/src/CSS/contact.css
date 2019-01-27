@@ -8,14 +8,14 @@
     width: 50%;
     font-family: GraphikLight;
     font-size: 2vw;
+    margin-left: 10%;
 }
 
 #contactInfoBox{
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
-    font-family: GraphikLight;
-    font-size: 2vw;
+
 }
 
 .flexBox{
@@ -23,6 +23,14 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+
+.iconFlexBox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left:10%;
+    margin-top:5%;
 }
 
 #ContactInfo{
@@ -78,7 +86,8 @@
     font-size: 1.5vw;
     color: black;
     width: 75%;
-    margin-top: 20%;
+    margin-top: 15%;
+    margin-left:10%;
 }
 
 .gmailIcon{
@@ -101,6 +110,9 @@
 
 .contactText {
     display:inline; 
+    font-family: GraphikLight;
+    font-size: 2vw;
+    color: black;
 }
 
 .contactLink{
