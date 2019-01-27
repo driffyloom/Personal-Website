@@ -43,8 +43,8 @@
     margin-top: 16.4%;
     margin-left: 5%;
     font-family: NexaBold;
-    font-size: 9vw;
-    color: white;
+    font-size: 7vw;
+    color: black;
     
 }
 
@@ -52,11 +52,11 @@
     z-index: 2;
     align-self: center;
     position: relative;
-    margin-top: -2%;
+    margin-top: -6%;
     margin-left: 5%;
     font-family: GraphikLight;
-    font-size: 3vw;
-    color: white;
+    font-size: 2.5vw;
+    color: grey;
     width: 75vw;
 }
 
@@ -65,8 +65,8 @@
     position: relative;
     display: inline;
     font-family: GraphikLight;
-    font-size: 4vw;
-    color: white;
+    font-size: 2.5vw;
+    color: red;
 }
 
 #background {
@@ -86,11 +86,29 @@
     z-index:-1;
 }
 
+#profilePicture{
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    top: 40%;
+    position: relative;
+    left: -20%;
+}
+
 #lovesRotating{
     display:inline;
     font-family: GraphikLight;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: white;
+}
+
+#headerFlexBox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 6%;
+    margin-bottom: 20%;
 }
 
 body{

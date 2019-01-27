@@ -1,18 +1,9 @@
-@font-face{
-    font-family: CodeBold;
-    src: url("../Fonts/Code-Bold.woff") format("woff");
-}
 
-@font-face{
-    font-family: CodeLight;
-    src: url("../Fonts/Code-Light.woff") format("woff");
-}
 
 #profilePicBox{
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
-    background-color: tan;
     height: 30vw;
     width: 50%;
     font-family: GraphikLight;
@@ -20,30 +11,24 @@
 }
 
 #contactInfoBox{
-    display: flex;
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
-    background-color: wheat;
-    height: 25vw;
-    width: 50%;
     font-family: GraphikLight;
     font-size: 2vw;
-    color: black;
-    padding:2.5vw;
 }
 
-#flexBox{
+.flexBox{
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 98vw;
 }
 
 #ContactInfo{
     z-index: 3;
     color:black;
+    margin-bottom: 100px;
 }
 
 #profilePic{
@@ -62,22 +47,55 @@
     overflow:auto;
 }
 
+#Title{
+    z-index: 2;
+    position: relative;
+    text-align:center;
+    font-family: GraphikSemiBold;
+    font-size: 4vw;
+    color: black;
+    width: 75vw;
+    margin-left:10%;
+}
+
+#ContactTitle{
+    z-index: 2;
+    position: relative;
+    text-align:center;
+    font-family: GraphikSemiBold;
+    font-size: 4vw;
+    color: black;
+    width: 75vw;
+    margin-left:10%;
+    margin-top:6%;
+    margin-bottom: 4%;
+
+}
+
+.descriptions{
+    flex-wrap: wrap;
+    font-family: GraphikLight;
+    font-size: 1.5vw;
+    color: black;
+    width: 75%;
+    margin-top: 20%;
+}
 
 .gmailIcon{
     height:2.5vw;
     width:3vw;
     display:inline-block;
     margin:auto;
-    position: static;
+
     margin-right:20px;
 }
 
 .icon{
     height:3vw;
     width:3vw;
-    display:inline-block;
+
     margin:auto;
-    position: static;
+
     margin-right:10px;
 }
 

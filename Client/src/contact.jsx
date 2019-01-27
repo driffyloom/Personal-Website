@@ -1,7 +1,7 @@
 //where you start creating react components\
 import React from "react";
 import './CSS/contact.css';
-import HoverImage from "./hoverImage.jsx"
+import HoverImage from "./hoverImage.jsx";
 import Fade from 'react-reveal/Fade';
 import profile from "./Media/Profile.jpg";
 import gmail from "./Media/Gmail.png";
@@ -24,38 +24,73 @@ export default class Contact extends React.Component{
 
     render(){
         return(
-            <div id = "flexBox">
-                <Fade left>
-                    <div id = "profilePicBox">
-                        <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/"> 
-                            <HoverImage src={profile} id = "profilePic"/>
-                        </a>
-                    </div>
+            <div>
+                <Fade top>
+                    <p id = "Title">About Me</p>
                 </Fade>
+
+                <hr></hr>
+
+                <div class = "flexBox">
+                    <Fade left>
+                        <div id = "profilePicBox">
+                            <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/"> 
+                                <HoverImage src={profile} id = "profilePic"/>
+                            </a>
+                        </div>
+
+                    </Fade>
+
+                    <Fade right>
+                        <div>
+                            <p class = "descriptions">Hi there! I'm a Software Engineer based in Orange County, 
+                            California that loves music, socializing, F45, music and creating things in general!
+                            </p>
+                        </div>
+                    </Fade>
+
+                </div>
+
+                <Fade top>
+                    <p id = "ContactTitle">Get In Touch!</p>
+                </Fade>                
+
                 <Fade right>
-                    <div id = "contactInfoBox">
-                        <div id = "ContactInfo">
-                            <h2 id = "GetInTouch">Get in touch!</h2>
+                    <div id = "contactInfoBox" >
+                        <div id = "ContactInfo" class = "flexBox">
                             <div>
                                 <a href ="mailto:austinchiang2012@gmail.com"><img src = {gmail} class = "gmailIcon"></img></a>
-                                <p class = "contactText">Email: <a href = "mailto:austinchiang2012@gmail.com" class = "contactLink">austinchiang2012@gmail.com</a></p>
+                            </div>    
+                            <div>  
+                                <p class = "contactText"><a href = "mailto:austinchiang2012@gmail.com" 
+                                class = "contactLink"download > austinchiang2012@gmail.com</a></p>
+                            </div> 
+                            <div>
+                                <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/">
+                                <img src = {linkedIn} class = "icon"></img></a>   
                             </div>
                             <div>
-                                <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/"><img src = {linkedIn} class = "icon"></img></a>   
-                                <p class = "contactText"><a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/" class = "contactLink" > My LinkedIn</a></p>
+                                <p class = "contactText"><a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/" 
+                                class = "contactLink"download > My LinkedIn</a></p>
                             </div>
                             <div>
-                            <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/"><img src = {gitHub} class = "icon"></img></a>   
-                                <p class = "contactText"><a href = "https://github.com/driffyloom" class = "contactLink"> My Github</a></p>
+                                <a href = "https://github.com/driffyloom/"><img src = {gitHub} 
+                                class = "icon"></img></a>       
+                            </div>
+                            <div>    
+                                <p class = "contactText"><a href = "https://github.com/driffyloom" class = "contactLink" 
+                                download > My Github</a></p>
                             </div>
                             <div>
                                 <a href = {resume} download><img src = {document} class = "icon"></img></a>   
-                                <p class = "contactText"><a href = {resume} class = "contactLink"download > My Resume</a></p>
                             </div>
-
+                            <div>
+                                <p class = "contactText"><a href = {resume} class = "contactLink" download > My Resume</a></p>
+                            </div>
                         </div>
                     </div>
                 </Fade>
+
             </div>
         )
     }

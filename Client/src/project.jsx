@@ -22,8 +22,10 @@ export default class Projects extends React.Component{
             
                 <div id = "projectSpace">
                     <Fade top>
-                        <p id = "projectSectionTitle">My Projects</p>
+                        <p id = "Title">Projects</p>
                     </Fade>
+
+                    <hr></hr>
 
                     <div class = "projectSection">
                         <Fade left class = "fadeBlock">  
@@ -63,7 +65,8 @@ export default class Projects extends React.Component{
                                 <div class = "projectText">
                                     <p class = "projectTitle"> Liberation </p>
                                     <p class = "projectSubtitle"> <a href = "http://www.randosliberation.wordpress.com" >Project Link</a> | September 2018 - January 2019</p>
-                                    <p class = "projectDescription">I'm currently head developer of Liberation, a 3D action shooter game developed in UE4.</p>
+                                    <p class = "projectDescription">Working with 4 other friends I'm currently head developer and project lead of Liberation, a 3D action shooter game. 
+                                                                    Build in UE4 Liberation features  4k textures and featuring an original story and art.</p>
                                 </div>
                             </div>   
                         </Fade>
@@ -75,4 +78,3 @@ export default class Projects extends React.Component{
         )
     }
 }
-//<img src={liberation} alt="Liberation" class="projectImage" href = "http://randosliberation.wordpress.com" width = "50%"></img>
