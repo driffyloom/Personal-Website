@@ -5,8 +5,6 @@ var reactPose = require('react-pose');
 module.exports = {
     entry: {
       app:'./Client/src/app.jsx',
-      menu: './Client/src/menu.jsx',
-      contactInfo: './Client/src/footer.jsx'
     },
     module: {
       rules: [

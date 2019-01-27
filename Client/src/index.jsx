@@ -3,11 +3,13 @@ import React from "react";
 import beach from "./Media/Beach.jpg";
 import './CSS/index.css';
 import ReactRotatingText from "react-rotating-text";
+import Projects from "./project.jsx";
+import Contact from "./contact.jsx";
 //creates a react div
 
 
 
-export default class ReactHeader extends React.Component{
+export default class Root extends React.Component{
     constructor(props){
         super(props)
         //states any state (for things like clicked info inside etc. anything dynamic)
@@ -32,6 +34,7 @@ export default class ReactHeader extends React.Component{
                 <ReactRotatingText items = {[" C++!", " Java!", " making things!", " F45!", " music!"]} typingInterval = "100" deletingInvterval = "100" id = "lovesRotating"/> </p>
                 <img src={beach} alt="beach" id = "beachPicture"></img>
             </div>
+            
         )
     }
 }

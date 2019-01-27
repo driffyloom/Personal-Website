@@ -6,7 +6,7 @@ import HoverImage from "./hoverImage.jsx";
 import liberation from "./Media/Liberation.jpg";
 import website from "./Media/Website.jpg";
 
-export default class ReactProjects extends React.Component{
+export default class Projects extends React.Component{
     constructor(props){
         super(props)
         

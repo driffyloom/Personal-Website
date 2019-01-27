@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ReactProjects from "./project.jsx";
+import Projects from "./project.jsx";
 
 
-ReactDOM.render( <ReactProjects />,document.getElementById('projects'));
+ReactDOM.render( <Projects />,document.getElementById('projects'));
