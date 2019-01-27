@@ -51,11 +51,11 @@ export default class Contact extends React.Component{
 
                 </div>
 
-                <Fade top>
+                <Fade bottom>
                     <p id = "ContactTitle">Get In Touch!</p>
                 </Fade>                
 
-                <Fade right>
+                <Fade bottom>
                     <div id = "contactInfoBox" >
                         <div id = "ContactInfo" class = "flexBox">
                             <div>
