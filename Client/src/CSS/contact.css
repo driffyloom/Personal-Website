@@ -83,10 +83,10 @@
 .descriptions{
     flex-wrap: wrap;
     font-family: GraphikLight;
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: black;
     width: 75%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left:10%;
 }
 
