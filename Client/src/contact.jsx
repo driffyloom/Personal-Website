@@ -52,7 +52,7 @@ export default class Contact extends React.Component{
                                     <a href = {resume} download><img src = {document} class = "icon"></img></a>   
                                 </div>
                                 <div>
-                                    <p class = "contactText"><a href = {resume} class = "contactLink" download > My Resume</a></p>
+                                    <p class = "contactText"><a href = {resume} class = "contactLink" download > Resume</a></p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export default class Contact extends React.Component{
                             </div>    
                             <div>  
                                 <p class = "contactText"><a href = "mailto:austinchiang2012@gmail.com" 
-                                class = "contactLink"download > austinchiang2012@gmail.com</a></p>
+                                class = "contactLink"download > Email </a></p>
                             </div> 
                             <div>
                                 <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/">
@@ -80,7 +80,7 @@ export default class Contact extends React.Component{
                             </div>
                             <div>
                                 <p class = "contactText"><a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/" 
-                                class = "contactLink"download > My LinkedIn</a></p>
+                                class = "contactLink"download > LinkedIn</a></p>
                             </div>
                             <div>
                                 <a href = "https://github.com/driffyloom/"><img src = {gitHub} 
@@ -88,7 +88,7 @@ export default class Contact extends React.Component{
                             </div>
                             <div>    
                                 <p class = "contactText"><a href = "https://github.com/driffyloom" class = "contactLink" 
-                                download > My Github</a></p>
+                                download > Github</a></p>
                             </div>
                         </div>
                     </div>
