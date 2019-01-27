@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import "animate.css/animate.min.css";
 import HoverImage from "./hoverImage.jsx";
 import liberation from "./Media/Liberation.jpg";
-import website from "./Media/Website.jpg";
+import website from "./Media/Website.png";
 
 export default class Projects extends React.Component{
     constructor(props){
@@ -65,7 +65,7 @@ export default class Projects extends React.Component{
                                 <div class = "projectText">
                                     <p class = "projectTitle"> Liberation </p>
                                     <p class = "projectSubtitle"> <a href = "http://www.randosliberation.wordpress.com" >Project Link</a> | September 2018 - January 2019</p>
-                                    <p class = "projectDescription">Working with 4 other team members, I'm currently head developer and project lead of Liberation, a 3D action shooter game. 
+                                    <p class = "projectDescription">With 4 other team members, I'm currently head developer and project lead of Liberation, a 3D action shooter game. 
                                                                     Built in UE4, Liberation features 4k textures and an original story with original art.</p>
                                 </div>
                             </div>   
