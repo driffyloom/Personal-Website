@@ -45,7 +45,7 @@ export default class Contact extends React.Component{
                         <div>
                             <p class = "descriptions">Hi there! I'm a Software Engineer based in Orange County, 
                             California with a B.S. in Computer Science from UCI. I'm also a huge Star
-                            Wars geek with a love for music, socializing, F45, music and making things in general!
+                            Wars geek with a love for music, socializing, F45, and making things in general!
                             </p>
                             <div class = "iconFlexBox" >
                                 <div>
