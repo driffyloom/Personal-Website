@@ -42,15 +42,17 @@ export default class Projects extends React.Component{
                                 <div class = "projectText">
                                     <p class = "projectTitle"> eBay Deal Alert </p>
                                     <p class = "projectSubtitle"><a href = "https://github.com/driffyloom/Ebay-Deal-Alert" >Project Link</a> | January 2019</p>
-                                    <p class = "projectDescription">The second project I'm workin on is an Ebay Deal Alert system which will 
-                                                                    notify users when an item they choose is listed for a price at or lower than they set. 
-                                                                    It is being coded in Python using the eBay API/SDK which will poll for items and will
-                                                                    eventually be implemented as a webapp using flask.
+                                    <p class = "projectDescription">The second project I'm working on is an eBay Deal Alert system that notifies users when 
+                                                                    an item they specify is listed for a price at or lower than they set. 
+                                                                    It is being coded in Python using the eBay API/SDK which will poll for items and we are
+                                                                    planning to implement it as a webapp using flask with a mySQL backend.
                                     </p>
                                 </div>
                             </div>   
                         </Fade>     
                     </div>
+
+                    <hr></hr>
 
                     <div class = "projectSection">
                         <Fade left class = "fadeBlock">  
