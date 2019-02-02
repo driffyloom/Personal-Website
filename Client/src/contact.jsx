@@ -70,26 +70,15 @@ export default class Contact extends React.Component{
                             <div>
                                 <a href ="mailto:austinchiang2012@gmail.com"><img src = {gmail} class = "gmailIcon"></img></a>
                             </div>    
-                            <div>  
-                                <p class = "contactText"><a href = "mailto:austinchiang2012@gmail.com" 
-                                class = "contactLink"download > Email </a></p>
-                            </div> 
                             <div>
                                 <a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/">
                                 <img src = {linkedIn} class = "icon"></img></a>   
                             </div>
                             <div>
-                                <p class = "contactText"><a href = "https://www.linkedin.com/in/austin-chiang-66a45b133/" 
-                                class = "contactLink"download > LinkedIn</a></p>
-                            </div>
-                            <div>
                                 <a href = "https://github.com/driffyloom/"><img src = {gitHub} 
                                 class = "icon"></img></a>       
                             </div>
-                            <div>    
-                                <p class = "contactText"><a href = "https://github.com/driffyloom" class = "contactLink" 
-                                download > Github</a></p>
-                            </div>
+
                         </div>
                     </div>
                 </Fade>

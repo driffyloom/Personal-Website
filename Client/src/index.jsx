@@ -1,6 +1,5 @@
 //where you start creating react components\
 import React from "react";
-import beach from "./Media/Beach.jpg";
 import './CSS/index.css';
 import ReactRotatingText from "react-rotating-text";
 import face from "./Media/Face.jpg";
@@ -25,20 +24,18 @@ export default class Title extends React.Component{
     //put photo here
     render(){
         return(
-            <div>
-                <div id = "headerFlexBox">
-                    <div id = "textBox">
-                        <h1 id = "name">I'm Austin Chiang.</h1>
-                        <p id = "title"> I'm a Software Engineer specializing in
-                        <p id = "boldTitle">
-                        <ReactRotatingText items = {[" C++.", " Java.", " SQL.", " React."]} 
-                        typingInterval = "100" deletingInvterval = "100" id = "lovesRotating"/> </p></p>
-                    </div>
-                    <div>
-                        <img src={face} alt="face" id = "profilePicture"></img>
-                    </div>
-                </div>            
-            </div>
+            <div id = "headerFlexBox">
+                <div id = "textBox">
+                    <h1 id = "name">I'm Austin Chiang.</h1>
+                    <p id = "title"> I'm a Software Engineer experienced in</p>
+                    <p id = "boldTitle">
+                    <ReactRotatingText items = {[" C++.", " Java.", " SQL.", " React."]} 
+                    typingInterval = "100" deletingInvterval = "100" id = "lovesRotating"/> </p>
+                </div>
+                <div>
+                    <img src={face} alt="face" id = "profilePicture"></img>
+                </div>
+            </div>            
         )
     }
 }

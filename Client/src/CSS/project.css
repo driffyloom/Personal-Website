@@ -35,13 +35,10 @@ a {
 
 #Title{
     z-index: 2;
-    position: relative;
     text-align:center;
     font-family: GraphikSemiBold;
     font-size: 4vw;
     color: black;
-    width: 75vw;
-    margin-left:10%;
 }
 
 .projectImage {
