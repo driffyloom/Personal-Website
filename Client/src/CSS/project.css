@@ -20,8 +20,6 @@
 
 hr{
     border: 0;
-    clear:both;
-    display:block;
     width: 96%;               
     background-color: grey;
     height: 1px;
@@ -34,7 +32,6 @@ a {
 }
 
 #Title{
-    z-index: 2;
     text-align:center;
     font-family: GraphikSemiBold;
     font-size: 4vw;
@@ -42,15 +39,12 @@ a {
 }
 
 .projectImage {
-    flex-wrap: wrap;
-    z-index: 3;
-    opacity: 1;
-    display:inline-block;
+    display:flex;
     width: 28vw;
     height: 14.5vw;
     transition: .5s ease;
     backface-visibility: hidden;
-    margin-left: 7%;
+    margin-left:5%;
 }
 
 .projectText{
@@ -59,7 +53,6 @@ a {
 }
 
 .projectTitle{
-    z-index: 2;
     position: relative;
     text-align:left;
     font-family: GraphikSemiBold;
@@ -70,7 +63,6 @@ a {
 }
 
 .projectSubtitle{
-    z-index: 2;
     position: relative;
     text-align:left;
     font-family: GraphikLight;
