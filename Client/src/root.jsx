@@ -22,7 +22,7 @@ export default class Root extends React.Component{
     render(){
         return(
             <div>
-                <Title id = "projects"/>
+                <Title id = "title"/>
                 <Projects id = "projects"/>  
                 <Contact  id = "contact"/>
             </div>

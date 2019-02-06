@@ -31,7 +31,7 @@ export default class Projects extends React.Component{
                     <div class = "projectSection">
                         <Fade left class = "fadeBlock">  
                             <div>
-                                <a href = "https://github.com/driffyloom/Ebay-Deal-Alert"> 
+                                <a href = "https://github.com/driffyloom/eBayDealAlertWebsite"> 
                                 <HoverImage src={workInProgress} class = "projectImage"/>
                                 </a>
                             </div>
@@ -41,7 +41,7 @@ export default class Projects extends React.Component{
                             <div>
                                 <div class = "projectText">
                                     <p class = "projectTitle"> eBay Deal Alert </p>
-                                    <p class = "projectSubtitle"><a href = "https://github.com/driffyloom/Ebay-Deal-Alert" >Project Link</a> | January 2019</p>
+                                    <p class = "projectSubtitle"><a href = "https://ebaydealalert.herokuapp.com/" >Project Link</a> | January 2019</p>
                                     <p class = "projectDescription">The second project I'm working on is an eBay Deal Alert system that notifies users when 
                                                                     an item they specify is listed for a price at or lower than they set. 
                                                                     It is being coded in Python using the eBay API/SDK which will poll for items and we are
