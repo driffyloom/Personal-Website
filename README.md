@@ -28,7 +28,7 @@ It was tested locally with Express and nodemon with many revamps within the week
 Fonts Used  
 o   Graphik Web Black  
 o   Graphik Web Light  
-o   Grpahik Web SemiBold  
+o   Graphik Web SemiBold  
 o   Nexa Bold  
 o   Nexa Light  
 
